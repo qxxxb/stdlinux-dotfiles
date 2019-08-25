@@ -3,7 +3,13 @@
 For more general setup instructions, see [GUIDE.md](GUIDE.md).
 
 ## Terminfo
-* Compile terminfo: `tic -o ~/.terminfo kitty.terminfo`
+* Compile terminfo:
+```bash
+curl -O https://raw.githubusercontent.com/kovidgoyal/kitty/master/terminfo/kitty.terminfo
+mkdir ~/.terminfo
+tic -o ~/.terminfo kitty.terminfo
+rm kitty.terminfo
+```
 
 ## Neovim
 * Download a release
