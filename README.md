@@ -22,7 +22,7 @@ rm kitty.terminfo
 * Install `zplug`
 * Run `zplug install`
 * Install `Pure` prompt manually
-  * Do symlinks in `~/.zfunctions`
+  * Do symlinks in `~/.zfunctions`, overwrite if needed
 
 ## ripgrep
 * Download a release
