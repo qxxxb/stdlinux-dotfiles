@@ -130,9 +130,3 @@ release, then enter `%`). To switch between the panes, use `Ctrl-B o`. More
 information can be found with `man tmux` and online.
 
 To exit a tmux pane or window, use the `exit` command.
-
----
-
-With some additional tweaking, my current setup looks like this:
-
-![screenshot](https://raw.githubusercontent.com/qxxxb/stdlinux-dotfiles/assets/screenshot.png)
