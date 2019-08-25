@@ -85,7 +85,7 @@ highlight Search
 " Syntax
 " ==========================================================
 
-autocmd FileType c,cpp,cs,java,php setlocal commentstring=//\ %s
+autocmd FileType cpp,cs,java,php setlocal commentstring=//\ %s
 
 " ==========================================================
 " Other
