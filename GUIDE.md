@@ -4,7 +4,7 @@ This guide describes a simple way to get a fairly usable setup on the stdlinux
 servers at OSU, using SSH without X11 forwarding (i.e. without a graphical
 interface).
 
-## zsh
+## shell
 
 The first thing I want to change is the command prompt. The default command
 prompt looks something like this:
@@ -109,7 +109,7 @@ improving your zsh environment, such as [oh my zsh](https://ohmyz.sh/) and
 The next step for transitioning to a terminal-only SSH session is to learn a
 editor that works on the command-line. I suggest Vim.
 
-## tmux
+## multiplexer
 
 According to the tmux wiki:
 
