@@ -1,5 +1,7 @@
 # stdlinux dotfiles
 
+![screenshot](https://raw.githubusercontent.com/qxxxb/stdlinux-dotfiles/assets/screenshot.png)
+
 For more general setup instructions, see [GUIDE.md](GUIDE.md).
 
 ## Terminfo
