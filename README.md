@@ -1,5 +1,7 @@
 # stdlinux dotfiles
 
+For more general setup instructions, see [GUIDE.md](GUIDE.md).
+
 ## Terminfo
 * Compile terminfo: `tic -o ~/.terminfo kitty.terminfo`
 
