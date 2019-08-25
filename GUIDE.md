@@ -1,8 +1,8 @@
 # stdlinux dotfiles guide
 
-I prefer to use SSH without X11 forwarding (i.e. without a graphical interface)
-and instead work entirely in the terminal. After some tweaking, I was able to
-get a fairly usable setup.
+This guide describes a simple way to get a fairly usable setup on the stdlinux
+servers at OSU, using SSH without X11 forwarding (i.e. without a graphical
+interface).
 
 ## zsh
 
