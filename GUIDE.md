@@ -130,3 +130,10 @@ release, then enter `%`). To switch between the panes, use `Ctrl-B o`. More
 information can be found with `man tmux` and online.
 
 To exit a tmux pane or window, use the `exit` command.
+
+---
+
+At this point you should have a fairly usable setup. If you want to further
+tweak your setup, you can start customizing configuration files such as
+`~/.zshrc`, `~/.vimrc`, and `~/.tmux.conf`. You can find examples online and
+also in this repository.
