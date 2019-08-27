@@ -4,6 +4,13 @@ This guide describes a simple way to get a fairly usable setup on the stdlinux
 servers at OSU, using SSH without X11 forwarding (i.e. without a graphical
 interface).
 
+## connection
+
+Open a terminal and run the following (substitute your `name.#`):
+```
+ssh name.#@stdlinux.cse.ohio-state.edu
+```
+
 ## shell
 
 The first thing I want to change is the command prompt. The default command
