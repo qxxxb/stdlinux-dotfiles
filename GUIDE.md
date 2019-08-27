@@ -19,7 +19,7 @@ prompt looks something like this:
 [jeng.28@cse-std9 lab1]$
 ```
 
-I don't like how it doesn't show full path (i.e. `~/Programs/cse-2421/lab1`
+I don't like how it doesn't the show full path (i.e. `~/Programs/cse-2421/lab1`
 instead of `lab1`). I also prefer to have plenty of colors and other information
 in my command prompt.
 
