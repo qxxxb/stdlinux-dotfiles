@@ -120,6 +120,9 @@ let g:ale_fixers['python']=['autopep8', 'yapf']
 let g:ale_rust_cargo_use_clippy=1
 let g:ale_fixers['rust']=['rustfmt']
 
+let g:ale_c_parse_makefile=1
+let g:ale_c_gcc_options='-ansi -pedantic'
+
 " ==========================================================
 " matchup
 " ==========================================================
@@ -198,3 +201,9 @@ highlight AnzuSearch
 
 let g:anzu_status_format=
 	\ '%#GruvboxFg4#Search: %#AnzuSearch#%p %#GruvboxYellowBold#[%i/%l]'
+
+" ==========================================================
+" UltiSnips
+" ==========================================================
+
+let g:UltiSnipsUsePythonVersion=2

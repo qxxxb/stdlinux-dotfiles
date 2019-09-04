@@ -196,8 +196,8 @@ nmap zg/ <Plug>(incsearch-fuzzy-stay)
 " UltiSnips
 " ==========================================================
 
-let g:UltiSnipsExpandTrigger="<C-a>"
-let g:UltiSnipsListSnippets="<C-A-a>"
+let g:UltiSnipsExpandTrigger="<C-q>"
+let g:UltiSnipsListSnippets="<C-A-q>"
 
 " ==========================================================
 " ALE
