@@ -4,6 +4,13 @@ This guide describes a simple way to get a fairly usable setup on the stdlinux
 servers at OSU, using SSH without X11 forwarding (i.e. without a graphical
 interface).
 
+## connection
+
+Open a terminal and run the following (substitute your `name.#`):
+```
+ssh name.#@stdlinux.cse.ohio-state.edu
+```
+
 ## shell
 
 The first thing I want to change is the command prompt. The default command
@@ -12,7 +19,7 @@ prompt looks something like this:
 [jeng.28@cse-std9 lab1]$
 ```
 
-I don't like how it doesn't show full path (i.e. `~/Programs/cse-2421/lab1`
+I don't like how it doesn't the show full path (i.e. `~/Programs/cse-2421/lab1`
 instead of `lab1`). I also prefer to have plenty of colors and other information
 in my command prompt.
 
