@@ -87,6 +87,10 @@ highlight Search
 
 autocmd FileType cpp,cs,java,php setlocal commentstring=//\ %s
 
+if !did_filetype()
+	autocmd BufNewFile,BufRead *.h setlocal filetype=c
+endif
+
 " ==========================================================
 " Other
 " ==========================================================

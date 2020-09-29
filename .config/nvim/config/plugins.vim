@@ -121,7 +121,7 @@ let g:ale_rust_cargo_use_clippy=1
 let g:ale_fixers['rust']=['rustfmt']
 
 let g:ale_c_parse_makefile=1
-let g:ale_c_gcc_options='-ansi -pedantic'
+" let g:ale_c_gcc_options='-std=gnu99 -Wall'
 
 " ==========================================================
 " matchup
